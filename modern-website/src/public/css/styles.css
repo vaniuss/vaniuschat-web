@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #666;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.faq-section {
+    margin: 20px;
+}
+
+.accordion {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+}
+
+.suggestions-form {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 30px 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

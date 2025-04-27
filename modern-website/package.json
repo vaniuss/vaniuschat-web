@@ -1,0 +1,29 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "A modern website with user registration, login, and a responsive design.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+  "body-parser": "^1.19.0",
+  "cors": "^2.8.5",
+  "dotenv": "^8.2.0",
+  "express": "^4.17.1",
+  "mongoose": "^5.10.0"
+}
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "website",
+    "express",
+    "mongodb",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
